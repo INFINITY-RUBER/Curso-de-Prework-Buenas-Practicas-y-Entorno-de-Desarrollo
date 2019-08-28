@@ -45,16 +45,14 @@ http://jsonplaceholder.typicode.com/todos
 ## Instalación de Git
 - Instalar Git en Linux: $ `sudo apt-get update` $ `sudo apt-get install git`
 - Instalar Git en Windows: https://gitforwindows.org/
-``
-``
-``
-``
-``
-``
+https://github.com/INFINITY-RUBER/CURSO_GITHUB.github.io/blob/master/NOTA_COMANDOS.md
 
-
+## Cómo crear un buen README.md y sintaxis de markdown
+-https://pandao.github.io/editor.md/en.html
 
 ``
-
 ``
-
+``
+``
+``
+``
