@@ -2,7 +2,7 @@
 `ssh-keygen -t rsa -b 4096 -C "This is a key"` comando para crear la llave:
 >Generating public/private rsa key pair.
 >Enter file in which to save the key (/home/ruber/.ssh/id_rsa): 
->Created directory '/home/ruber/.ssh'.
+>Created directory '/home/ruber/.ssh'. 
 >Enter passphrase (empty for no passphrase): 
 >Enter same passphrase again: 
 >Your identification has been saved in /home/ruber/.ssh/id_rsa.
@@ -18,6 +18,16 @@
     `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
     `nano .zshrc`:  y editamos el ZSH_THEME="robbyrussell" segun el tema:  https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
     `source .zshrc`: reinicio de terminal
+
+## Intalacion de plugins autocopletado 
+#Oh My Zsh 
+vamos al link de documentacion: -https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
+1.Clonamos el repository zsh-users/zsh-autosuggestions  (by default ~/.oh-my-zsh/custom/plugins)
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+2.Add el plugin en Oh My Zsh (`nano .zshrc`): buscar y agregamos "`zsh-autosuggestions`" en `plugins` con un espacion con algotro plugin que tenga
+ejemplo:`plugins=(git zsh-autosuggestions)`
+Start a new terminal session.
+
 ## Instalación y configuración de VSCode
  Visual Studio Code. Vamos a añadir diferentes plugins para VSCode:
 `Git Blame:` va a mostrar el autor de la línea de código en la que estemos trabajando.
@@ -36,12 +46,15 @@
 
 `Color Highlight:` resalta el color que estemos escribiendo.
 `SASS:` es un preprocesador de CSS.
-##Herramientas de desarrollo del navegador
+##Herramientas de desarrollo del NAVEGADOR
 -react : https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
 -redux: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 -JSON Viewer https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
--postman: https://www.getpostman.com/
-http://jsonplaceholder.typicode.com/todos
+-postman: https://www.getpostman.com/ 
+----> https://www.getpostman.com/downloads/
+
+http://jsonplaceholder.typicode.com/todos  #JSON WEB
+
 ## Instalación de Git
 - Instalar Git en Linux: $ `sudo apt-get update` $ `sudo apt-get install git`
 - Instalar Git en Windows: https://gitforwindows.org/
@@ -49,6 +62,19 @@ https://github.com/INFINITY-RUBER/CURSO_GITHUB.github.io/blob/master/NOTA_COMAND
 
 ## Cómo crear un buen README.md y sintaxis de markdown
 -https://pandao.github.io/editor.md/en.html
+
+##reto clase primera js
+## Intalacion de plugins autocopletado Oh My Zsh
+ aquí: https://github.com/zsh-users/zsh-autosuggestions.
+ vamos al link de documentacion: -https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
+-1  Clonamos el repository zsh-users/zsh-autosuggestions (by default ~/.oh-my-zsh/custom/plugins) lo guarda:
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+-2 Add el plugin en Oh My Zsh con el comando(nano .zshrc): buscar y agregamos  en plugins con un espacio si hay otro plugin que tenga y colocamos “zsh-autosuggestions”
+ejemplo:
+`plugins=(git zsh-autosuggestions)`
+-3 Reiniciamos la terminal con: exit
+
+
 
 ``
 ``
