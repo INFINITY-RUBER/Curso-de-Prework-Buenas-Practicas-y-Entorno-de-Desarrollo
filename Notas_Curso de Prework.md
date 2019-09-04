@@ -13,7 +13,7 @@
 `eval $(ssh-agent -s)`    
 >   Agent pid 8533
 
-# Añadir tu llave SSH a este "servidor":
+### Añadir tu llave SSH a este "servidor":
 `ssh-add ruta-donde-guardaste-tu-llave-privada`
 ej:`ssh-add ~/.ssh/id_rsa` 
     Enter passphrase for /home/ruber/.ssh/id_rsa: 
@@ -34,10 +34,12 @@ ej:`ssh-add ~/.ssh/id_rsa`
 ## Intalacion de plugins autocopletado 
 #Oh My Zsh 
 vamos al link de documentacion: -https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
+
 1.Clonamos el repository zsh-users/zsh-autosuggestions  (by default ~/.oh-my-zsh/custom/plugins)
 `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
 2.Add el plugin en Oh My Zsh (`nano .zshrc`): buscar y agregamos "`zsh-autosuggestions`" en `plugins` con un espacion con algotro plugin que tenga
-ejemplo:`plugins=(git zsh-autosuggestions)`
+-ejemplo:`plugins=(git zsh-autosuggestions)`
 Start a new terminal session.
 
 ## Instalación y configuración de VSCode
