@@ -55,7 +55,7 @@ Start a new terminal session.
 
 http://jsonplaceholder.typicode.com/todos  #JSON WEB
 
-## Instalación de Git
+## INSTALACION DE GIT
 - Instalar Git en Linux: $ `sudo apt-get update` $ `sudo apt-get install git`
 - Instalar Git en Windows: https://gitforwindows.org/
 https://github.com/INFINITY-RUBER/CURSO_GITHUB.github.io/blob/master/NOTA_COMANDOS.md
