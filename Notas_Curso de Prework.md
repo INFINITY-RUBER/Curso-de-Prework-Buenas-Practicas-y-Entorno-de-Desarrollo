@@ -1,5 +1,5 @@
-## Crea llaves SSH
-`ssh-keygen -t rsa -b 4096 -C "This is a key"` comando para crear la llave:
+## Crea llaves SSH y agregar a GITHUB
+`ssh-keygen -t rsa -b 4096 -C "tuCorreo@com"` comando para crear la llave:
 >Generating public/private rsa key pair.
 >Enter file in which to save the key (/home/ruber/.ssh/id_rsa): 
 >Created directory '/home/ruber/.ssh'. 
@@ -9,6 +9,18 @@
 >Your public key has been saved in /home/ruber/.ssh/id_rsa.pub.
 >The key fingerprint is:
 >SHA256:FyNAx+r+5Aeu7q1eCyVfvsL6W3t7eWQWxbVXC5Znlf0 This is a key
+# Encender el "servidor" de llaves SSH de tu computadora:
+`eval $(ssh-agent -s)`    
+>   Agent pid 8533
+
+# Añadir tu llave SSH a este "servidor":
+`ssh-add ruta-donde-guardaste-tu-llave-privada`
+ej:`ssh-add ~/.ssh/id_rsa` 
+    Enter passphrase for /home/ruber/.ssh/id_rsa: 
+    Identity added: /home/ruber/.ssh/id_rsa (/home/ruber/.ssh/id_rsa
+
+
+
 ## Configuración de la terminal
 1- instalar https://hyper.is/
 2-Installing ZSH  https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
