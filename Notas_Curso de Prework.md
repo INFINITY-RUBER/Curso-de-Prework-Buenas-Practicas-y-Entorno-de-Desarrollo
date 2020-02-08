@@ -44,10 +44,12 @@ Por último, ahora sí podemos hacer git push para guardar los cambios de nuestr
 `git push origin master`
 =======
 ### Encender el "servidor" de llaves SSH de tu computadora:
+
 `eval $(ssh-agent -s)`    
  - Agent pid 8533
 
 ### Añadir tu llave SSH a este "servidor":
+
 `ssh-add ruta-donde-guardaste-tu-llave-privada`
 ej:`ssh-add ~/.ssh/id_rsa` 
     Enter passphrase for /home/ruber/.ssh/id_rsa: 
@@ -56,44 +58,55 @@ ej:`ssh-add ~/.ssh/id_rsa`
 
 
 
-## Configuración de la terminal
+### Configuración de la terminal
+
 <<<<<<< HEAD
 1- instalar https://hyper.is/
+
 2-Installing ZSH  https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
     `zsh --version`
     `apt install zsh`
+    
 3-Installing Oh My ZSH https://ohmyz.sh/
     `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
     `nano .zshrc`:  y editamos el ZSH_THEME="robbyrussell" segun el tema:  https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-    `source .zshrc`: reinicio de terminal
-=======
+    
+    `source .zshrc`: 
+    reinicio de terminal
+    
 1.  	instalar https://hyper.is/
 
-1. Installing ZSH  https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+2. Installing ZSH  https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
   `zsh --version`
   `apt install zsh`
-1. Installing Oh My ZSH https://ohmyz.sh/
+  
+3. Installing Oh My ZSH https://ohmyz.sh/
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 `nano .zshrc`:  y editamos el ZSH_THEME="robbyrussell" segun el tema:  https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 `source .zshrc`: reinicio de terminal
 >>>>>>> d331b43028f3d7e1a784b9e0da9c76a5ff929193
 
 ## Intalacion de plugins autocopletado 
+
 #Oh My Zsh 
 vamos al link de documentacion: -https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
-<<<<<<< HEAD
+
 1.Clonamos el repository zsh-users/zsh-autosuggestions  (by default ~/.oh-my-zsh/custom/plugins)
 `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
 2.Add el plugin en Oh My Zsh (`nano .zshrc`): buscar y agregamos "`zsh-autosuggestions`" en `plugins` con un espacion con algotro plugin que tenga
+
 ejemplo:`plugins=(git zsh-autosuggestions)`
-=======
+
 
 1.	Clonamos el repository zsh-users/zsh-autosuggestions  (by default ~/.oh-my-zsh/custom/plugins)
 `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 
 2.	Add el plugin en Oh My Zsh (`nano .zshrc`): buscar y agregamos "`zsh-autosuggestions`" en `plugins` con un espacion con algotro plugin que tenga
+
 -ejemplo:`plugins=(git zsh-autosuggestions)`
->>>>>>> d331b43028f3d7e1a784b9e0da9c76a5ff929193
+
+> d331b43028f3d7e1a784b9e0da9c76a5ff929193
 Start a new terminal session.
 
 ## Instalación y configuración de VSCode
@@ -127,7 +140,7 @@ http://jsonplaceholder.typicode.com/todos
 ## Instalación de Git
 =======
 
-##Herramientas de desarrollo del NAVEGADOR
+## Herramientas de desarrollo del NAVEGADOR
 - react : https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
 - redux: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 - JSON Viewer https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
@@ -137,7 +150,7 @@ http://jsonplaceholder.typicode.com/todos
 - http://jsonplaceholder.typicode.com/todos  #JSON WEB
 
 ## INSTALACION DE GIT
->>>>>>> d331b43028f3d7e1a784b9e0da9c76a5ff929193
+
 - Instalar Git en Linux: $ `sudo apt-get update` $ `sudo apt-get install git`
 - Instalar Git en Windows: https://gitforwindows.org/
 https://github.com/INFINITY-RUBER/CURSO_GITHUB.github.io/blob/master/NOTA_COMANDOS.md
