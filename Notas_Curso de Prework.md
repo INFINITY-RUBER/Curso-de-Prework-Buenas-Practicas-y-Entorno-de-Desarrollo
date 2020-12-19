@@ -58,35 +58,25 @@ ej:`ssh-add ~/.ssh/id_rsa`
 
 
 
-### Configuración de la terminal
+# Configuración de la terminal
 
-<<<<<<< HEAD
-1- instalar https://hyper.is/
 
-2-Installing ZSH  https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+1. instalar https://hyper.is/
+
+2. Installing ZSH  https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
     `zsh --version`
     `apt install zsh`
     
-3-Installing Oh My ZSH https://ohmyz.sh/
+3. Installing Oh My ZSH https://ohmyz.sh/
     `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
     `nano .zshrc`:  y editamos el ZSH_THEME="robbyrussell" segun el tema:  https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
     
     `source .zshrc`: 
     reinicio de terminal
     
-1.  	instalar https://hyper.is/
 
-2. Installing ZSH  https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
-  `zsh --version`
-  `apt install zsh`
-  
-3. Installing Oh My ZSH https://ohmyz.sh/
-`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-`nano .zshrc`:  y editamos el ZSH_THEME="robbyrussell" segun el tema:  https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-`source .zshrc`: reinicio de terminal
->>>>>>> d331b43028f3d7e1a784b9e0da9c76a5ff929193
 
-## Intalacion de plugins autocopletado 
+# Intalacion de plugins autocopletado 
 
 #Oh My Zsh 
 vamos al link de documentacion: -https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
@@ -99,15 +89,6 @@ vamos al link de documentacion: -https://github.com/zsh-users/zsh-autosuggestion
 ejemplo:`plugins=(git zsh-autosuggestions)`
 
 
-1.	Clonamos el repository zsh-users/zsh-autosuggestions  (by default ~/.oh-my-zsh/custom/plugins)
-`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-
-2.	Add el plugin en Oh My Zsh (`nano .zshrc`): buscar y agregamos "`zsh-autosuggestions`" en `plugins` con un espacion con algotro plugin que tenga
-
--ejemplo:`plugins=(git zsh-autosuggestions)`
-
-> d331b43028f3d7e1a784b9e0da9c76a5ff929193
-Start a new terminal session.
 
 ## Instalación y configuración de VSCode
  Visual Studio Code. Vamos a añadir diferentes plugins para VSCode:
